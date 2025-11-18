@@ -28,8 +28,8 @@
                 <!-- <section data-background-image="figures/crab-jwst.webp" data-background-size="contain"> -->
                 <section data-background-image="figures/title-page.png" class="full">
                     <!-- <section class="full"> -->
-                    <img src="figures/nasa-nsf.png" style="position: absolute; right: 0px; bottom: 0px;">
-                    <img src="figures/washu-mcss.svg" style="position: absolute; left: 50px; bottom: 0px; height: 13%;">
+                    <img src="figures/nasa-nsf.png" style="position: absolute; right: 0px; bottom: 0px; height: 17%;">
+                    <img src="figures/washu-mcss.svg" style="position: absolute; left: 50px; bottom: 0px; height: 10%;">
                 </section>
 
                 <section>
@@ -91,7 +91,7 @@
 
                 <section data-background-image="figures/st-louis.png">
                     <div class="content-page">
-                        <h2>Pulsars are about 20km across, packing the mass of a Sun</h2>
+                        <h3>Pulsars are about 20km across, packing the mass of a Sun</h3>
                         <!-- for reference, radius of the sun is actually 700,000km, or 35,000 times larger -->
                         <!-- for reference, the sun rotates once every 25 days or so -->
                     </div>
@@ -99,7 +99,7 @@
 
                 <section data-background-image="figures/st-louis-ns.png">
                     <div class="content-page">
-                        <h2>Pulsars are about 20km across, packing the mass of a Sun</h2>
+                        <h3>Pulsars are about 20km across, packing the mass of a Sun</h3>
                     </div>
                 </section>
 
@@ -212,9 +212,11 @@
                         <div class="content">
                             <p>Pulsars are surrounded by a lot of plasma, and
                             the radiation we see is powered by the plasma interacting with the magnetic field.</p>
-                            <img class="fragment fade-in"
-                                 data-src="figures/pulsar-hakobyan.png"
-                                 style="width: 100%;">
+                            <div class="fragment fade-in">
+                                <img data-src="figures/pulsar-hakobyan.png"
+                                     style="width: 100%;">
+                                (Hakobyan et al. 2022)
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -256,15 +258,20 @@
                             simulations to calculate its magnetic field structure</p>
                             <div class="r-stack">
                                 <img src="figures/magnetosphere-lambda.png"
-                                     class="fragment fade-in-then-out" style="width:60%">
+                                     class="fragment fade-in-then-out" style="width:60%"
+                                     data-fragment-index="0">
                                 <img src="figures/magnetosphere-emission.png"
-                                     class="fragment fade-in-then-out" style="width:60%">
+                                     class="fragment fade-in-then-out" style="width:60%"
+                                     data-fragment-index="1">
                                 <img src="figures/multi-wavelength-label.png"
                                      class="fragment fade-in"
-                                     style="width: 35%;">
+                                     style="width: 35%;"
+                                     data-fragment-index="2">
                             </div>
                             <!-- <br> -->
-                            (<em>Chen</em>, Yuan & Vasilopoulos 2020)
+                            <div class="fragment" data-fragment-index="0">
+                                (<em>Chen</em>, Yuan & Vasilopoulos 2020)
+                            </div>
                         </div>
                     </div>
                 </section>
